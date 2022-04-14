@@ -3,10 +3,10 @@
 // import * as tooltip from './scripts/tooltip.js'
 
 // import d3Tip from 'd3-tip'
-import * as preprocess from './scripts/preprocess.js'
-import * as viz from './scripts/LineChart/viz.js'
-import * as tooltips from './scripts/LineChart/tooltip'
-import * as radar from './scripts/RadarChart/radarChart'
+import * as preprocess from './src/scripts/preprocess.js'
+import * as viz from './src/scripts/LineChart/viz.js'
+import * as tooltips from './src/scripts/LineChart/tooltip'
+import * as radar from './src/scripts/RadarChart/radarChart'
 
 /**
  * @file This file is the entry-point for the the code for final project(with 3DSemantix) for the course INF8808.
