@@ -2,10 +2,10 @@
   "name": "final-project",
   "version": "1.0.0",
   "description": "Projet Final du cours INF8808.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "parcel build ./index.html",
-    "start": "parcel ./index.html --log-level=2 --port=8080",
+    "build": "parcel build index.html",
+    "start": "parcel index.html --log-level=2 --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Equipe 18",
