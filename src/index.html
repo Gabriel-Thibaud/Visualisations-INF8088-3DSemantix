@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Code pour le porjet final de INF8808.">
+  <title>Projet Final | INF8808</title>
+
+  <!-- <link rel="stylesheet" href="assets/style.css"> -->
+  <link rel="stylesheet" href="assets/tooltip.css">
+  <link rel="stylesheet" href="assets/dashboard.css">
+
+</head>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>3DPartFinder</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- <link rel="icon" href="favicon.ico"> -->
+  <!-- type="image/x-icon" -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <style>
+
+  </style>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <app-root _nghost-c0="" ng-version="5.2.11">
+    <!---->
+
+    <div _ngcontent-c0="" class="pfo-display">
+      <router-outlet _ngcontent-c0=""></router-outlet>
+      <app-platform-host _nghost-c1="" class="ng-star-inserted">
+        <div _ngcontent-c1="" id="pfo-body">
+
+          <header _ngcontent-c1="" class="pfo-navbar pfo-navbar--partners">
+            <div _ngcontent-c1="" class="pfo-navbar__container">
+              <div _ngcontent-c1="" class="pfo-navbar__left">
+                <a _ngcontent-c1="" class="pfo-navbar__logo" title="Home">
+                  <!-- <img _ngcontent-c1="" src="assets/images/3Dsemantix_large.png"> -->
+                </a>
+
+                <app-search_for_navbar _ngcontent-c1="" _nghost-c2="">
+                  <div _ngcontent-c2="" id="pfo-navbar-search" class="navbar--disabled">
+                    <form _ngcontent-c2="" novalidate="" class="ng-untouched ng-pristine">
+                      <input _ngcontent-c2="" autocomplete="off" name="q" type="text" placeholder="Search partners..."
+                        class="ng-untouched ng-pristine" disabled="">
+                      <button _ngcontent-c2="" type="submit"><i _ngcontent-c2=""
+                          class="material-icons">search</i></button>
+                    </form>
+                    <!---->
+                  </div>
+                </app-search_for_navbar>
+              </div>
+
+              <div _ngcontent-c1="" class="pfo-navbar__right">
+                <nav _ngcontent-c1="" class="pfo-tabs">
+                  <a _ngcontent-c1="" class="pfo-tabs__tab" routerlink="/p/catalog">
+                    <span _ngcontent-c1="">
+                      <i _ngcontent-c1="" class="material-icons">menu_book</i>
+                      <span _ngcontent-c1="">catalogs</span>
+                    </span>
+                  </a>
+
+                  <a _ngcontent-c1="" class="pfo-tabs__tab pfo-tabs__tab--transparent" routerlink="/p/partners">
+                    <span _ngcontent-c1="">
+                      <i _ngcontent-c1="" class="material-icons">people</i>
+                      <span _ngcontent-c1="">partners</span>
+                    </span>
+                  </a>
+                  <a _ngcontent-c1="" class="pfo-tabs__tab" routerlink="/p/organization">
+                    <span _ngcontent-c1="">
+                      <i _ngcontent-c1="" class="material-icons">domain</i>
+                      <span _ngcontent-c1="">my org</span>
+                    </span>
+                  </a>
+                </nav>
+
+                <div _ngcontent-c1="" class="pfo-navbar__login">
+                  <app-login-for-navbar _ngcontent-c1="" _nghost-c3="">
+                    <div _ngcontent-c3="" class="pfo-login">
+                      <!---->
+
+                      <!----><span _ngcontent-c3="" class="ng-star-inserted">
+                        <button _ngcontent-c3="" class="pfo-login__button" title="Open menu">
+                          <img _ngcontent-c3="" alt="User avatar"
+                            src="https://www.gravatar.com/avatar/36e79259928245c5a4d2810677e94347?s=100&amp;d=mm&amp;r=g">
+                        </button>
+                        <!---->
+                      </span>
+                    </div>
+                  </app-login-for-navbar>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <div _ngcontent-c1="" id="router-outlet">
+            <router-outlet _ngcontent-c1=""></router-outlet>
+            <app-workshop-host _nghost-c5="" class="ng-tns-c5-1 ng-star-inserted">
+              <div _ngcontent-c5="" class="pfo-left-column-color pfo-left-column--small" id="pfo-left-column"
+                style="z-index: 5 !important;">
+                <div _ngcontent-c5="" class="pfo-left-column-toggle-color pfo-left-column--small"
+                  id="pfo-left-column__toggle">
+                  <a _ngcontent-c5="" class="ng-tns-c5-1" title="toggle menu">
+                    <i _ngcontent-c5="" class="material-icons">menu</i>
+                  </a>
+                </div>
+
+
+                <div _ngcontent-c5="" class="pfo-left-column__icon-menu">
+                  <app-panel-navbar _ngcontent-c5="" class="ng-tns-c5-1" _nghost-c6="">
+                    <!---->
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                      <app-nav-button _ngcontent-c6="" _nghost-c8="" class="ng-star-inserted">
+                        <div _ngcontent-c8="" class="menu-button">
+                          <a _ngcontent-c8="" class="panelUnselected" title="parts">
+                            <i _ngcontent-c8="" class="material-icons">cloud_upload</i>
+                            <!---->
+                          </a>
+                          <!---->
+                        </div>
+                      </app-nav-button>
+                    </div>
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                    </div>
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                      <app-nav-button _ngcontent-c6="" _nghost-c8="" class="ng-star-inserted">
+                        <div _ngcontent-c8="" class="menu-button">
+                          <a _ngcontent-c8="" class="panelUnselected" title="filters">
+                            <i _ngcontent-c8="" class="material-icons">check_box</i>
+                            <!---->
+                          </a>
+                          <!---->
+                        </div>
+                      </app-nav-button>
+                    </div>
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                      <app-nav-button _ngcontent-c6="" _nghost-c8="" class="ng-star-inserted">
+                        <div _ngcontent-c8="" class="menu-button">
+                          <a _ngcontent-c8="" class="panelUnselected" title="workspace">
+                            <i _ngcontent-c8="" class="material-icons">group_work</i>
+                            <!---->
+                          </a>
+                          <!---->
+                        </div>
+                      </app-nav-button>
+                    </div>
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                      <app-nav-button _ngcontent-c6="" _nghost-c8="" class="ng-star-inserted">
+                        <div _ngcontent-c8="" class="menu-button">
+                          <a _ngcontent-c8="" class="panelUnselected" title="history">
+                            <i _ngcontent-c8="" class="material-icons">history</i>
+                            <!---->
+                          </a>
+                          <!---->
+                        </div>
+                      </app-nav-button>
+                    </div>
+                    <div _ngcontent-c6="" class="ng-star-inserted">
+                      <!---->
+                    </div>
+                  </app-panel-navbar>
+
+                  <!---->
+                </div>
+              </div>
+
+              <div _ngcontent-c5="" class="pfo-body-background pfo-body pfo-body--small-menu">
+                <router-outlet _ngcontent-c5="" class="ng-tns-c5-1"></router-outlet>
+                <app-partner _nghost-c25="" class="ng-star-inserted">
+                  <div _ngcontent-c25="" class="pfo-content-background" id="pfo-content">
+                    <app-panels _ngcontent-c25="" _nghost-c10="">
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </app-panels>
+                    <div _ngcontent-c25="" class="pfo-content-column">
+
+                      <div _ngcontent-c25="" class="pfo-content-column__title pfo-column-title-color">
+                        <!---->
+                        <h4 _ngcontent-c25="" class="ng-star-inserted">Cr3do</h4>
+                        <!---->
+                      </div>
+
+                      <div _ngcontent-c25="" class="pfo-content-column__body no-overflow">
+
+                        <!---->
+
+
+                        <!---->
+
+                        <!---->
+                        <div _ngcontent-c25="" class="data ng-star-inserted">
+                          <div _ngcontent-c25="" class="partner__header">
+                            <div _ngcontent-c25="" class="partner__header--name">Cr3do</div>
+                            <!---->
+                          </div>
+                          <div _ngcontent-c25="" class="partner__global">
+                            <div _ngcontent-c25="" class="partner__logo">
+                              <!---->
+                              <!----><img _ngcontent-c25="" alt="Logo"
+                                src="data:image/jpeg;base64,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ZUKiPocv/iEeiaQ19hNNVjzaXUdFYqIvak2EL6QQP4C5tloNOrTaq3YfCFFhoBauU4c1H69f/8QAKhABAAEDAwIGAgIDAAAAAAAAAREAITFBUWFxoRCBkcHR8CCxcPEwQOH/2gAIAQEAAT8h/mVyLoIRt3anarV34Jkev+toxAN12GtQKTa+319nrSMil1daAs9XPCanWo68B3I/p0oD4ycg3Hw5g6HZ4IMoVxPBSHZCHm09JcrT0aWM1xPWhnwVIBlaTmGQL8oq2QZJlueeS5TK9yUxx7F1N6qIA8qtfvF16Q7NDwHjX1spMk3pgJd3vRnWoxoG0/va9kjF3n6prMFM2G7d78M7QzxiTZN2mDRyVrs02KMMtrPaljQitVBvDvxS2c5IQ1ESNmj2qfEoCfOJqRAGKzadKdgQTb9172q0FgmGJXpF6uRnKx2LeX7ioZqo13P+1GAh+VwuS30/J4O0+HojDSLlx4AQs4ZxemeYwAe8MHW70pNVzKJy+Gnc8PQn5eEeBGRLY3pN4IQkN5fL1qf4CoYL6PsgXsHf5oygGPZi1FQszL2sXMZirRAO6D+1fR41YDApO9qr9cH0f0oGjhR0+F4wuPkd/wA3ncKfsd/HS5WIJmFDb5eKxQ0yhHlNLNehAX9C318SA5RPB8KS6k6kyJvY7lAZKaTaALvUzQ83wnoFOXdCNgjDtQ43sq3SbFqGgIFbIu4PehhKpLaTbglGGhIPohdqCx2Hd5evz+K9jSLIfJ1qN4vTO1+q7hSQXeQE6FT0Zxr/ANHl2rB9Qo83d5pAIkjo1J2ynJ2oCYQOAoJg1LDPZOY8CzVDFLh0rj5uPeuJ0p6qzcwEnk19p9qKQ5zBP08EbZkPpNDSi5JHTb/A7IJWkozytpUmRrkjn2P51//aAAwDAQACAAMAAAAQ888888888888888888888888888888888888888888888888888888888888888888wUUoocAcUQ088oEA8QI8Qkc088oUsss8c88s8888888888888888888888888888888888888888888888888888888888888888888//EABQRAQAAAAAAAAAAAAAAAAAAAHD/2gAIAQMBAT8QKf/EABQRAQAAAAAAAAAAAAAAAAAAAHD/2gAIAQIBAT8QKf/EACgQAQEAAQQCAgIBBAMAAAAAAAERIQAxQVEQYXGBIJGhMEBwscHw8f/aAAgBAQABPxD/ADKEcoSTkaBDMUXgdY8BOcdr6QH+2VM64ZuDlfG3MNZN8QH0GD6y/hp/YqdU7q8usaMXCPax6gmrfyFK33K953OGgYtEuFAYROTxk5cj11TfC8U6XQjBH58fy7RBEA0YraFnaI6AVAduv/JaAUROzwTMKuAdrrax8E+QX8swujk0vvFIpwC6oVmXyVG6eodrjVtUPJ6Vk1XSQKTvLYPjd4HUaQC+Eps+NcA6XoWNi2wNPYCQnLblewC9yN37cNLWtCkcrhPwmhQeYGb6aADPsmmwpzKBUzYpZnSECfFE+NW/ySrIHm9n3yq56E72CEFtz0NtIheDJFfhOKmMtwH8kxl3PHQ71YcIMpo6Z0F5iet4EGQcBU3ut2/AYs+aYOrMy6xjDtlCoXR54eQa5Rxw60sU9HULVAigfIgvNjVL+PbFV1dI5OD5McTRLZbDiAoKmtGVt08lk0BiG1RypvlpCJHjG6mV9vhqTko29v0RjwClStfYFy9GdVWMxWsyKIJ/w0BcM5Ln4h/s0ANkSPCyAueetyPpC3Cqv3NGxWQhZSBAu2b41FOatUZPMgnIRcuv4TTCVN8Die7D70RvDR7P/Xdbph9ldf3fBMY7aFd+v6HsF/7jv5amJmiCRhlYte+SEe/kPx0oI+kulcnvFgISsVeI3Z50x2AQ2hH2n6zTUSsGQ1WEKp2Im+ht51hE3mO63ATTcNz0jL7KDhU41JTIQcYbcrpnaEY+QwHMDcq4IYOsiDeOUQu1o30eKTVZSKxZIoBDcz8bWB4a/ompPUVHCPhYM98E/Hagi0+wsnqD6m+lW7Wxe7I/PPtx4Cvf+9Q4DK6vaIRT6Kh9U+1rP1OOXlN0hVV5dG2NEKJ06ToTSmu0wfs0A1QE/QGA1HaOhRbmqBlmPDnFOhURShrQeXWQE0FXsAx966XGF+glD71CNzLRpQRiD9eHeyL0d8oPC8OqYe4JpeC5W+1L9PzQREo6yf3F50MFHMWtrnW861DVRexeg9f51//Z"
+                                class="ng-star-inserted">
+                            </div>
+
+                            <div _ngcontent-c25="" class="partner__items">
+                              <div _ngcontent-c25="" class="partner__item" title="sales@cr3do.be">
+                                <i _ngcontent-c25="" class="material-icons">email</i>
+                                <a _ngcontent-c25="" class="partner__item--text partner__item--link" target="_top"
+                                  href="mailto:sales@cr3do.be?Hello">sales@cr3do.be</a>
+                              </div>
+
+                              <!---->
+                              <div _ngcontent-c25="" class="partner__item ng-star-inserted"
+                                title="https://www.cr3do.be">
+                                <i _ngcontent-c25="" class="material-icons">language</i>
+                                <a _ngcontent-c25="" class="partner__item--text partner__item--link" target="_blank"
+                                  href="https://www.cr3do.be">https://www.cr3do.be</a>
+                              </div>
+
+                              <!---->
+                              <div _ngcontent-c25="" class="partner__item ng-star-inserted" title="+3211 34 61 64">
+                                <i _ngcontent-c25="" class="material-icons">phone</i>
+                                <div _ngcontent-c25="" class="partner__item--text">+3211 34 61 64</div>
+                              </div>
+
+                              <div _ngcontent-c25="" class="partner__item partner__item--grid">
+                                <i _ngcontent-c25="" class="material-icons">place</i>
+                                <div _ngcontent-c25="" class="partner__title partner__item--text">
+                                  Alken — Belgium
+                                </div>
+                                <div _ngcontent-c25="" class="partner__item--text">
+                                  Groenmolenstraat 1115C, 3570, Limburg
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!---->
+                          <div _ngcontent-c25="" class="partner__description ng-star-inserted">
+                            Creating 3D Objects Belgium. Cr3Do is a young &amp; dynamic company specialized in
+                            professional 3D printing solutions for prototyping, functional &amp; end-use parts.
+                          </div>
+                          <!-- div where the graph will take place -->
+                          <div id="curved_line"></div>
+                          <div id="radar_chart"></div>
+                          <div id=""></div>
+                          <div id=""></div>
+
+                          <!---->
+                          <div _ngcontent-c25="" class="section ng-star-inserted">
+                            <div _ngcontent-c25="" class="section__header">
+                              <div _ngcontent-c25="" class="section__header--name">Equipments</div>
+                              <!---->
+                              <!----><i _ngcontent-c25="" class="material-icons ng-star-inserted">expand_more</i>
+                            </div>
+
+                            <!---->
+                          </div>
+
+                          <!---->
+                          <div _ngcontent-c25="" class="section ng-star-inserted">
+                            <div _ngcontent-c25="" class="section__header">
+                              <div _ngcontent-c25="" class="section__header--name">Services</div>
+                              <!---->
+                              <!----><i _ngcontent-c25="" class="material-icons ng-star-inserted">expand_more</i>
+                            </div>
+
+                            <!---->
+                          </div>
+
+                          <!---->
+                          <div _ngcontent-c25="" class="section ng-star-inserted">
+                            <div _ngcontent-c25="" class="section__header">
+                              <div _ngcontent-c25="" class="section__header--name">Certifications</div>
+                              <!---->
+                              <!----><i _ngcontent-c25="" class="material-icons ng-star-inserted">expand_more</i>
+                            </div>
+
+                            <!---->
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </app-partner>
+              </div>
+
+              <!---->
+            </app-workshop-host>
+          </div>
+        </div>
+      </app-platform-host>
+    </div>
+  </app-root>
+
+</body>
+
+</html>
+
+<!-- <body>
+  <header>
+    <h1>
+      Projet final
+    </h1>
+    <h2>
+      3DSemantix
+    </h2>
+  </header>
+  <main>
+    <div class="viz-container">
+      <div class="graph" id="bar-chart">
+        <svg class="main-svg"></svg>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class='panel'>
+      <div class='legend-title'>
+        <p>
+          Legend
+        </p>
+      </div>
+
+      <div class='legend'></div>
+
+    </div>
+  </footer>-->
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="https://unpkg.com/d3-regression@1.1.0/dist/d3-regression.min.js"></script>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
